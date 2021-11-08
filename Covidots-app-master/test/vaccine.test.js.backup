@@ -1,0 +1,17 @@
+/**
+ * Vaccine Model Testcase
+ * Author : Janani Manoharan
+ * Date : Aug 2, 2021
+ *  */
+
+ /*const vaccineData = require("../models/vaccineModel");
+
+ describe("The vaccine service", () => {
+     test("should return resolve when all vaccine are displayed", () => {
+         const mock = jest.spyOn(vaccineData, 'getAllVaccines');  // spy on Message.findOne()
+         mock.mockImplementation(() => Promise.resolve());
+         //expect(vaccineData.getAllVaccines()).resolves;
+     })
+
+ });
+ */

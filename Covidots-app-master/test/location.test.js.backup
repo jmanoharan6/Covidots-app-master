@@ -1,0 +1,34 @@
+/**
+ * Location Model Testcase
+ * Author : Janani Manoharan
+ * Date : Aug 2, 2021
+ *  */
+
+/*
+const locationData = require("../models/LocationModel");
+
+describe("The Location service", () => {
+    test("should return resolve when all locations are displayed", () => {
+        const mock = jest.spyOn(locationData, 'getAllLocations');  
+        mock.mockImplementation(() => Promise.resolve());
+        //expect(locationData.getAllLocations()).resolves;
+    }),
+
+    // to test get location by ID
+    test("should return response when location is selected by ID are displayed", () => {
+        const mock = jest.spyOn(locationData, 'getLocationByID');  
+        var locationBucket = {};
+        locationBucket.location_id=22;
+        mock.mockImplementation(() => Promise.reject("location not found with id " + locationBucket.location_id));
+        expect(locationData.getLocationByID(locationBucket)).rejects.toBe("location not found with id "+locationBucket.location_id);
+    }),
+    test("should return response when location is selected by ID are displayed", () => {
+        const mock = jest.spyOn(locationData, 'getLocationByID');  
+        var locationBucket = {};
+        locationBucket.location_id=2;
+        mock.mockImplementation(() => Promise.resolve(locationBucket));
+        expect(locationData.getLocationByID(locationBucket)).resolves.toBe(locationBucket);
+    })
+
+});
+*/
